@@ -6,13 +6,16 @@ specifiers:
   '@mantine/modals': 4.1.2
   '@mantine/next': 4.1.2
   '@mantine/notifications': 4.1.2
+  '@nanostores/react': 0.2.0
   '@types/mapbox-gl': 2.6.3
   '@types/react': 17.0.43
   '@types/react-dom': 17.0.14
   '@vitejs/plugin-react': 1.3.0
+  await-of: 3.1.1
   dprint: 0.24.3
   mapbox-gl: 2.7.1
   motion: 10.7.0
+  nanostores: 0.5.12
   prettier: 2.6.2
   react: 18.0.0
   react-dom: 18.0.0
@@ -27,8 +30,11 @@ dependencies:
   '@mantine/modals': 4.1.2_9da473ff0d614e7f154042b82c38f598
   '@mantine/next': 4.1.2_c13207e15fed56fc7b9b70ab319ad0ff
   '@mantine/notifications': 4.1.2_9da473ff0d614e7f154042b82c38f598
+  '@nanostores/react': 0.2.0_33de46f26c75888291546388c72611d1
+  await-of: 3.1.1
   mapbox-gl: 2.7.1
   motion: 10.7.0_react-dom@18.0.0+react@18.0.0
+  nanostores: 0.5.12
   react: 18.0.0
   react-dom: 18.0.0_react@18.0.0
 
@@ -1591,6 +1597,19 @@ packages:
       tslib: 2.3.1
     dev: false
 
+  /@nanostores/react/0.2.0_33de46f26c75888291546388c72611d1:
+    resolution: {integrity: sha512-8kR6Ke8KAacAuBvodGrMNtLof8xF44WkfqtWWMZffP0TZsXEePdIWEQ6MDmCvVzbFAwOKvF71YjVAJ660NYCAw==}
+    engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
+    peerDependencies:
+      nanostores: ^0.5.2
+      react: '>=18.0.0'
+      react-dom: '>=18.0.0'
+    dependencies:
+      nanostores: 0.5.12
+      react: 18.0.0
+      react-dom: 18.0.0_react@18.0.0
+    dev: false
+
   /@nodelib/fs.scandir/2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
     engines: {node: '>= 8'}
@@ -1899,6 +1918,11 @@ packages:
     resolution: {integrity: sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==}
     engines: {node: '>= 4.0.0'}
     dev: true
+
+  /await-of/3.1.1:
+    resolution: {integrity: sha512-80naavFUrZPt+XabzjaOx3MUjIsu9wxlsuWmgetDRam9Ffbn4BCYEC04DenwvXwC8bc+ueNs4mIN6bauvq48XQ==}
+    engines: {node: '>=7.6.0'}
+    dev: false
 
   /babel-plugin-dynamic-import-node/2.3.3:
     resolution: {integrity: sha512-jZVI+s9Zg3IqA/kdi0i6UDCybUI3aSBLnglhYbSSjKlV7yF1F/5LWv8MakQmvYpnbJDS6fcBL2KzHSxNCMtWSQ==}
@@ -3043,6 +3067,11 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
     dev: true
+
+  /nanostores/0.5.12:
+    resolution: {integrity: sha512-5BccS7nNInTc7Noz2gv19gyx5h5y6m72nj6ZnCTV98GdFdwvcFJf2MMl+7VsX76E1toV1YrLqlDn+R+OF73PVg==}
+    engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
+    dev: false
 
   /node-releases/2.0.2:
     resolution: {integrity: sha512-XxYDdcQ6eKqp/YjI+tb2C5WM2LgjnZrfYg4vgQt49EK268b6gYCHsBLrK2qvJo4FmCtqmKezb0WZFK4fkrZNsg==}

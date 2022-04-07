@@ -1,7 +1,8 @@
 import React from "react";
 import { Footer, Header } from "@mantine/core";
-import Main from "./ui/shell/Main";
-import ReloadPrompt from "./ui/shell/ReloadPrompt";
+import Main from "@shell/Main";
+import ReloadPrompt from "@shell/ReloadPrompt";
+import GeolocationTrack from "@shell/GeolocationTrack";
 
 function App() {
   return (
@@ -11,17 +12,25 @@ function App() {
       </Header>
       <Main />
       <Footer height="auto" py="xs" px="xs">
-        <small>
-          Created by{" "}
-          <a
-            href="https://www.8byte.agency"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            8byte Agency
-          </a>
-        </small>
+        <p>
+          <small>
+            Created by{" "}
+            <a
+              href="https://www.8byte.agency"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              8byte Agency
+            </a>
+          </small>
+        </p>
+        <p>
+          <small>
+            App build v.{__BUILD_VERSION__.slice(0, 8)} ({__BUILD_DATE__})
+          </small>
+        </p>
       </Footer>
+      <GeolocationTrack />
       <ReloadPrompt />
     </>
   );
