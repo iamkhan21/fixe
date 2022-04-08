@@ -8,7 +8,7 @@ export function geolocationAdapter(): GeolocationService {
 
       const options = {
         enableHighAccuracy: true,
-        timeout: 5_000,
+        timeout: 10_000,
       };
 
       return new Promise((resolve, reject) => {

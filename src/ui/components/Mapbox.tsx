@@ -44,6 +44,8 @@ const Mapbox = () => {
         zoom: 15,
       });
 
+      map.current.addControl(new mapboxgl.FullscreenControl());
+
       // @ts-ignore
       map.current.on("load", () => {
         setIsMapLoaded(true);
