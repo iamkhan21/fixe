@@ -39,8 +39,11 @@ const Mapbox = () => {
       // @ts-ignore
       map.current = new mapboxgl.Map({
         container: "mapbox",
-        style: "mapbox://styles/mapbox/streets-v11",
-        center: coordinates || [-122.667569, 45.523825], // starting position
+        style: "mapbox://styles/onexel/cl1ruw4st002h14o0ioafsexk",
+        center: coordinates || {
+          lng: 27.564026252621716,
+          lat: 53.90270773894483,
+        }, // starting position
         zoom: 15,
       });
 

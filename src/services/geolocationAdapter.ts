@@ -7,8 +7,8 @@ export function geolocationAdapter(): GeolocationService {
         throw new Error("Geolocation is not supported");
 
       const options = {
-        enableHighAccuracy: true,
-        timeout: 10_000,
+        enableHighAccuracy: false,
+        timeout: 5_000,
       };
 
       return new Promise((resolve, reject) => {

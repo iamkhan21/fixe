@@ -1,13 +1,13 @@
 lockfileVersion: 5.3
 
 specifiers:
-  "@mantine/core": 4.1.2
-  "@mantine/hooks": 4.1.2
-  "@mantine/modals": 4.1.2
-  "@mantine/notifications": 4.1.2
+  "@mantine/core": 4.1.3
+  "@mantine/hooks": 4.1.3
+  "@mantine/modals": 4.1.3
+  "@mantine/notifications": 4.1.3
   "@nanostores/react": 0.2.0
-  "@types/mapbox-gl": 2.6.3
-  "@types/react": 18.0.0
+  "@types/mapbox-gl": 2.6.4
+  "@types/react": 18.0.2
   "@types/react-dom": 18.0.0
   "@vitejs/plugin-react": 1.3.0
   await-of: 3.1.1
@@ -22,13 +22,13 @@ specifiers:
   typescript: 4.6.3
   vite: 2.9.1
   vite-plugin-pwa: 0.11.13
-  workbox-window: 6.5.2
+  workbox-window: 6.5.3
 
 dependencies:
-  "@mantine/core": 4.1.2_e1eb28e9fbe5e511f72d9b0f7f286534
-  "@mantine/hooks": 4.1.2_react@18.0.0
-  "@mantine/modals": 4.1.2_9da473ff0d614e7f154042b82c38f598
-  "@mantine/notifications": 4.1.2_9da473ff0d614e7f154042b82c38f598
+  "@mantine/core": 4.1.3_263f1dc88cfc8835f691d3c5197402fc
+  "@mantine/hooks": 4.1.3_react@18.0.0
+  "@mantine/modals": 4.1.3_10abcfe38a103349173ece69f20945fa
+  "@mantine/notifications": 4.1.3_10abcfe38a103349173ece69f20945fa
   "@nanostores/react": 0.2.0_33de46f26c75888291546388c72611d1
   await-of: 3.1.1
   mapbox-gl: 2.8.0
@@ -37,8 +37,8 @@ dependencies:
   react-dom: 18.0.0_react@18.0.0
 
 devDependencies:
-  "@types/mapbox-gl": 2.6.3
-  "@types/react": 18.0.0
+  "@types/mapbox-gl": 2.6.4
+  "@types/react": 18.0.2
   "@types/react-dom": 18.0.0
   "@vitejs/plugin-react": 1.3.0
   dprint: 0.24.4
@@ -48,7 +48,7 @@ devDependencies:
   typescript: 4.6.3
   vite: 2.9.1
   vite-plugin-pwa: 0.11.13_vite@2.9.1
-  workbox-window: 6.5.2
+  workbox-window: 6.5.3
 
 packages:
   /@ampproject/remapping/2.1.2:
@@ -1613,7 +1613,7 @@ packages:
       }
     dev: false
 
-  /@emotion/react/11.9.0_@types+react@18.0.0+react@18.0.0:
+  /@emotion/react/11.9.0_@types+react@18.0.2+react@18.0.0:
     resolution:
       {
         integrity: sha512-lBVSF5d0ceKtfKCDQJveNAtkC7ayxpVlgOohLgXqRwqWr9bOf4TZAFFyIcNngnV6xK6X4x2ZeXq7vliHkoVkxQ==,
@@ -1634,7 +1634,7 @@ packages:
       "@emotion/serialize": 1.0.3
       "@emotion/utils": 1.1.0
       "@emotion/weak-memoize": 0.2.5
-      "@types/react": 18.0.0
+      "@types/react": 18.0.2
       hoist-non-react-statics: 3.3.2
       react: 18.0.0
     dev: false
@@ -1705,33 +1705,33 @@ packages:
       "@jridgewell/sourcemap-codec": 1.4.11
     dev: true
 
-  /@mantine/core/4.1.2_e1eb28e9fbe5e511f72d9b0f7f286534:
+  /@mantine/core/4.1.3_263f1dc88cfc8835f691d3c5197402fc:
     resolution:
       {
-        integrity: sha512-7P3dhcTkA6zod7L9kSlIpEr4IcHX31LqFetbmoD/q8TqxBVBS2ckNYTwQaH5o446j2ORKrPZ0r28xBCI+lib8Q==,
+        integrity: sha512-uIJNWUdoT8dpFBYXDbllv3d2GRgWftFZ3rIV22dN3o1XnJZ44a4woX7aWO8vDmv0H62CTZDyz02jWriLFMmfLQ==,
       }
     peerDependencies:
-      "@mantine/hooks": 4.1.2
+      "@mantine/hooks": 4.1.3
       react: ">=16.8.0"
       react-dom: ">=16.8.0"
     dependencies:
-      "@mantine/hooks": 4.1.2_react@18.0.0
-      "@mantine/styles": 4.1.2_761282c47ea27a9f40e1344337910648
+      "@mantine/hooks": 4.1.3_react@18.0.0
+      "@mantine/styles": 4.1.3_31fee5138b61bcdeb416e3946f47cd38
       "@popperjs/core": 2.11.5
       "@radix-ui/react-scroll-area": 0.1.4_react@18.0.0
       react: 18.0.0
       react-dom: 18.0.0_react@18.0.0
       react-popper: 2.2.5_ddeceac54e80ad082dd3259289d97632
-      react-textarea-autosize: 8.3.3_@types+react@18.0.0+react@18.0.0
+      react-textarea-autosize: 8.3.3_@types+react@18.0.2+react@18.0.0
     transitivePeerDependencies:
       - "@babel/core"
       - "@types/react"
     dev: false
 
-  /@mantine/hooks/4.1.2_react@18.0.0:
+  /@mantine/hooks/4.1.3_react@18.0.0:
     resolution:
       {
-        integrity: sha512-ccTD4q7jViYisizjydRkCZdiMrtbC+uxEsZHHjyy/adcK8zOix178bag53OKn5TIFFMH6dXHZmto0IZsVCY1vw==,
+        integrity: sha512-sFDdpg8TjopSqFICNEX4OYUAbarAVn35FkRfE6vk4u2ecf8ySHO12XbBn/1zybTOD1dUACT8GJ0KI0WsYgT7Uw==,
       }
     peerDependencies:
       react: ">=16.8.0"
@@ -1739,52 +1739,52 @@ packages:
       react: 18.0.0
     dev: false
 
-  /@mantine/modals/4.1.2_9da473ff0d614e7f154042b82c38f598:
+  /@mantine/modals/4.1.3_10abcfe38a103349173ece69f20945fa:
     resolution:
       {
-        integrity: sha512-mJN+x2IBDPYyllvJaw3DhpDMnVt7CCa84jkWj0Ul5CxxeFa8hTGopkAKeJ+U0sk0WoP0AW1m2YYpJlQOSpkLqQ==,
+        integrity: sha512-CwcOgYqxIDeJv4FbBm91xbu5edeVkPwzN2fiZ2X3D6pVjbjtKwcAm97XISiH1i5Sld+pDa6ZWMUuHP8ZO7BaFw==,
       }
     peerDependencies:
-      "@mantine/core": 4.1.2
-      "@mantine/hooks": 4.1.2
+      "@mantine/core": 4.1.3
+      "@mantine/hooks": 4.1.3
       react: ">=16.8.0"
       react-dom: ">=16.8.0"
     dependencies:
-      "@mantine/core": 4.1.2_e1eb28e9fbe5e511f72d9b0f7f286534
-      "@mantine/hooks": 4.1.2_react@18.0.0
+      "@mantine/core": 4.1.3_263f1dc88cfc8835f691d3c5197402fc
+      "@mantine/hooks": 4.1.3_react@18.0.0
       react: 18.0.0
       react-dom: 18.0.0_react@18.0.0
     dev: false
 
-  /@mantine/notifications/4.1.2_9da473ff0d614e7f154042b82c38f598:
+  /@mantine/notifications/4.1.3_10abcfe38a103349173ece69f20945fa:
     resolution:
       {
-        integrity: sha512-wC9PgNs1xkKGd2Hlq9GhKRb5Mu74eIZNE+6N1Pp8gJ6VyCXQ7sLVgJ64SCEXGYP8Da4EZpyrj/9ZjhrQi7tB5Q==,
+        integrity: sha512-ufz8pw8JzR2hnghfJRnzCvksFjNawWWY6vKXWVL6F8uNyAq9rnTaOgJrWXcHtMD2k6YDtipzCfPU2cMYWXAzYg==,
       }
     peerDependencies:
-      "@mantine/core": 4.1.2
-      "@mantine/hooks": 4.1.2
+      "@mantine/core": 4.1.3
+      "@mantine/hooks": 4.1.3
       react: ">=16.8.0"
       react-dom: ">=16.8.0"
     dependencies:
-      "@mantine/core": 4.1.2_e1eb28e9fbe5e511f72d9b0f7f286534
-      "@mantine/hooks": 4.1.2_react@18.0.0
+      "@mantine/core": 4.1.3_263f1dc88cfc8835f691d3c5197402fc
+      "@mantine/hooks": 4.1.3_react@18.0.0
       react: 18.0.0
       react-dom: 18.0.0_react@18.0.0
       react-transition-group: 4.4.2_react-dom@18.0.0+react@18.0.0
     dev: false
 
-  /@mantine/styles/4.1.2_761282c47ea27a9f40e1344337910648:
+  /@mantine/styles/4.1.3_31fee5138b61bcdeb416e3946f47cd38:
     resolution:
       {
-        integrity: sha512-HcBrmKzEV7jbBBxicnHUl/Ol/eS5hrZ4lt4hpoi/yD/VVx0BHolK4LkiHCvoh9vFHHN2o9gQo236LgHbqYMEGA==,
+        integrity: sha512-wkyfwPlLs4QWa5q3FfpqS0xGbAvnPEapKhfRKSQta3EqpwejolfwlhZMyJCOoah0RiVp4eWjucWSBApwvDZjxQ==,
       }
     peerDependencies:
       react: ">=16.8.0"
       react-dom: ">=16.8.0"
     dependencies:
       "@emotion/cache": 11.7.1
-      "@emotion/react": 11.9.0_@types+react@18.0.0+react@18.0.0
+      "@emotion/react": 11.9.0_@types+react@18.0.2+react@18.0.0
       "@emotion/serialize": 1.0.3
       "@emotion/utils": 1.1.0
       clsx: 1.1.1
@@ -2153,10 +2153,10 @@ packages:
       }
     dev: true
 
-  /@types/mapbox-gl/2.6.3:
+  /@types/mapbox-gl/2.6.4:
     resolution:
       {
-        integrity: sha512-oF5eQmczkoPQfxfRSwpF9GcrWi3YleptJ67uiCQKps+7aKxwIbww0EHHqIrxvOg49l07+AZBtJU2FPKZm1jKAg==,
+        integrity: sha512-lpwjFlc+Ya4kunIDKhzm76f3LYSKOgQxEgPYHkAxoNomc2XRCRd4Kqz+y06YXiDicXbhBL2tQ9tBaEmh0z1MvQ==,
       }
     dependencies:
       "@types/geojson": 7946.0.8
@@ -2189,13 +2189,13 @@ packages:
         integrity: sha512-49897Y0UiCGmxZqpC8Blrf6meL8QUla6eb+BBhn69dTXlmuOlzkfr7HHY/O8J25e1lTUMs+YYxSlVDAaGHCOLg==,
       }
     dependencies:
-      "@types/react": 18.0.0
+      "@types/react": 18.0.2
     dev: true
 
-  /@types/react/18.0.0:
+  /@types/react/18.0.2:
     resolution:
       {
-        integrity: sha512-7+K7zEQYu7NzOwQGLR91KwWXXDzmTFODRVizJyIALf6RfLv2GDpqpknX64pvRVILXCpXi7O/pua8NGk44dLvJw==,
+        integrity: sha512-2poV9ReTwwV5ZNxkKyk7t6Vp/odeTfYI3vRjtDYWfUdEstx9mp26jzELfMBwV6gXg1irhHUnmZJH/dJW7xafcA==,
       }
     dependencies:
       "@types/prop-types": 15.7.5
@@ -4001,7 +4001,7 @@ packages:
     engines: { node: ">=0.10.0" }
     dev: true
 
-  /react-textarea-autosize/8.3.3_@types+react@18.0.0+react@18.0.0:
+  /react-textarea-autosize/8.3.3_@types+react@18.0.2+react@18.0.0:
     resolution:
       {
         integrity: sha512-2XlHXK2TDxS6vbQaoPbMOfQ8GK7+irc2fVK6QFIcC8GOnH3zI/v481n+j1L0WaPVvKxwesnY93fEfH++sus2rQ==,
@@ -4013,7 +4013,7 @@ packages:
       "@babel/runtime": 7.17.9
       react: 18.0.0
       use-composed-ref: 1.2.1_react@18.0.0
-      use-latest: 1.2.0_@types+react@18.0.0+react@18.0.0
+      use-latest: 1.2.0_@types+react@18.0.2+react@18.0.0
     transitivePeerDependencies:
       - "@types/react"
     dev: false
@@ -4588,7 +4588,7 @@ packages:
       react: 18.0.0
     dev: false
 
-  /use-isomorphic-layout-effect/1.1.2_@types+react@18.0.0+react@18.0.0:
+  /use-isomorphic-layout-effect/1.1.2_@types+react@18.0.2+react@18.0.0:
     resolution:
       {
         integrity: sha512-49L8yCO3iGT/ZF9QttjwLF/ZD9Iwto5LnH5LmEdk/6cFmXddqi2ulF0edxTwjj+7mqvpVVGQWvbXZdn32wRSHA==,
@@ -4600,11 +4600,11 @@ packages:
       "@types/react":
         optional: true
     dependencies:
-      "@types/react": 18.0.0
+      "@types/react": 18.0.2
       react: 18.0.0
     dev: false
 
-  /use-latest/1.2.0_@types+react@18.0.0+react@18.0.0:
+  /use-latest/1.2.0_@types+react@18.0.2+react@18.0.0:
     resolution:
       {
         integrity: sha512-d2TEuG6nSLKQLAfW3By8mKr8HurOlTkul0sOpxbClIv4SQ4iOd7BYr7VIzdbktUCnv7dua/60xzd8igMU6jmyw==,
@@ -4616,9 +4616,9 @@ packages:
       "@types/react":
         optional: true
     dependencies:
-      "@types/react": 18.0.0
+      "@types/react": 18.0.2
       react: 18.0.0
-      use-isomorphic-layout-effect: 1.1.2_@types+react@18.0.0+react@18.0.0
+      use-isomorphic-layout-effect: 1.1.2_@types+react@18.0.2+react@18.0.0
     dev: false
 
   /vite-plugin-pwa/0.11.13_vite@2.9.1:
@@ -4635,7 +4635,7 @@ packages:
       rollup: 2.70.1
       vite: 2.9.1
       workbox-build: 6.5.2
-      workbox-window: 6.5.2
+      workbox-window: 6.5.3
     transitivePeerDependencies:
       - "@types/babel__core"
       - supports-color
@@ -4803,6 +4803,13 @@ packages:
       }
     dev: true
 
+  /workbox-core/6.5.3:
+    resolution:
+      {
+        integrity: sha512-Bb9ey5n/M9x+l3fBTlLpHt9ASTzgSGj6vxni7pY72ilB/Pb3XtN+cZ9yueboVhD5+9cNQrC9n/E1fSrqWsUz7Q==,
+      }
+    dev: true
+
   /workbox-expiration/6.5.2:
     resolution:
       {
@@ -4911,6 +4918,16 @@ packages:
     dependencies:
       "@types/trusted-types": 2.0.2
       workbox-core: 6.5.2
+    dev: true
+
+  /workbox-window/6.5.3:
+    resolution:
+      {
+        integrity: sha512-GnJbx1kcKXDtoJBVZs/P7ddP0Yt52NNy4nocjBpYPiRhMqTpJCNrSL+fGHZ/i/oP6p/vhE8II0sA6AZGKGnssw==,
+      }
+    dependencies:
+      "@types/trusted-types": 2.0.2
+      workbox-core: 6.5.3
     dev: true
 
   /wrappy/1.0.2:
